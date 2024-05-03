@@ -11,8 +11,6 @@ tira.addEventListener('click', function(){
         document.querySelector('#pc label').innerText='numero pc: ';
         document.querySelector('#risultato').innerText='';
         document.querySelector('#player label').innerText+=n;
-        document.querySelector('#player').classList.add('d-block');
-        document.querySelector('#player').classList.remove('d-none');
     }
     if(i==1){
         document.querySelector('#pc label').innerText+=n;
